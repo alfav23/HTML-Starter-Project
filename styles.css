@@ -59,6 +59,10 @@ button {
     font-size: xx-large;
 }
 
+.search-wrapper {
+    position: relative;
+}
+
 .search-input {
     padding: 10px 60px 10px 20px;
     font-size: 1.2em;
@@ -71,9 +75,9 @@ button {
 }
 
 .search-emoji {
-    position: relative;
-    left: 385px;
-    bottom: 33px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 /*FAQ*/
