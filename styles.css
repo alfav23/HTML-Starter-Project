@@ -1,0 +1,142 @@
+/*GENERAL*/
+body {
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+/*HEADER*/
+.header {
+    background-color:  rgb(66, 37, 146);
+    background: linear-gradient(90deg, #06165f 0%, #3c00bc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 375px;
+    max-width: 100%;
+    padding: 0px 20px; 
+}
+
+button {
+    border: none;
+    border-radius: 16px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.header-btn-grp {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-submit {
+    background-color: #FAA500;
+}
+
+.btn-sign-in {
+    color: whitesmoke;
+    background-color: #00B719;
+}
+
+/*SEARCH*/
+.search {
+    background-color: #E8EAf6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    width: 100%;
+    min-width: 375px;
+}
+
+.search-title {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.search-input {
+    padding: 10px 60px 10px 20px;
+    font-size: 1.2em;
+    width: 80%;
+    min-width: 300px;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.search-emoji {
+    position: relative;
+    left: 385px;
+    bottom: 33px;
+}
+
+/*FAQ*/
+img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #5C6BC0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 100%;
+    min-width: 375px;
+    
+}
+
+.faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    max-width: 1200px;
+}
+
+.faq-list-item {
+    display: inline-flex;
+    color: black;
+    min-height: 8rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 20px;
+    gap: 2rem;
+    text-align: left;
+}
+
+.faq-card-title {
+    margin-top: 0;
+}
+
+.faq-card-text {
+    font-size: 14px;
+}
+
+/*FOOTER*/
+.footer-content {
+    background-color:  rgb(66, 37, 146);
+    background: linear-gradient(90deg, #06165f 0%, #3c00bc 100%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    min-width: 375px;
+}
