@@ -11,12 +11,17 @@ body {
 .header {
     background-color:  rgb(66, 37, 146);
     background: linear-gradient(90deg, #06165f 0%, #3c00bc 100%);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     min-width: 375px;
     max-width: 100%;
     padding: 0px 20px; 
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 375px;
 }
 
 button {
